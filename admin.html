@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html lang="zxx" dir="ltr">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="assets/images/logo/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all-min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/slick-slider/slick-theme.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/slick-slider/slick.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/media-query.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- DataTables CDN (includes both CSS and JavaScript) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!-- CDN -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- bootstrap datatable -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
+
+    <style>
+        .brain {
+            width: 55px !important;
+            border-radius: 150px;
+            background: #fff;
+            padding: 4px;
+        }
+
+
+
+        .wts {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 55px;
+            z-index: 9999999;
+            display: block;
+            background: #4CAF50;
+            padding: 7px;
+            border-radius: 150px;
+            height: 55px;
+            border: 3px solid #fff;
+            box-shadow: 0 3px 9px 0 #ccc;
+            text-align: center;
+            color: #fff;
+            font-size: 34px;
+        }
+
+        .wts:hover {
+            color: #fff;
+        }
+
+        .wts img {
+            width: 100%;
+        }
+
+
+        .lpo {
+            font-size: 32px;
+            width: 55px;
+            height: 55px;
+            text-align: center;
+            padding: 11px 0;
+            border-radius: 45px;
+            margin: 15px 20px 15px 0;
+        }
+
+
+
+        .fa-facebook {
+            background-color: #fff;
+            color: #1773ea;
+        }
+
+        .fa-youtube {
+            background-color: #fff;
+            color: red;
+        }
+
+        .yi {
+
+            background-position: center center;
+
+            background-size: cover;
+
+        }
+
+        .header {
+            padding: 10px 0 !important;
+        }
+
+        .ll {
+            float: right;
+            color: #fff;
+            font-size: 30px;
+        }
+
+
+
+        .form-g {
+
+            padding: 25px;
+
+            border-radius: 15px;
+
+
+
+        }
+
+
+
+        .close {
+
+            background-color: transparent !important;
+
+            opacity: 1;
+
+            width: 35px;
+
+            text-align: center;
+
+            height: 35px;
+
+            line-height: 22px !important;
+
+        }
+
+
+
+        label {
+
+            color: #fff;
+
+        }
+
+
+
+        .img-br {
+
+            border-radius: 460px;
+
+        }
+
+
+
+        .lop h3 .tr-contentTitle {
+
+            font-size: 19px !important;
+
+            margin-bottom: 0;
+
+            line-height: 3px;
+
+        }
+
+        .error {
+
+            color: red;
+
+        }
+
+
+
+        .pt-35 {
+
+            padding-top: 250px;
+
+        }
+
+        .call-p {
+
+            font-size: 35px;
+
+        }
+
+
+
+        .call-p {
+
+            font-size: 35px;
+
+            line-height: 37px;
+
+            color: #433a8b;
+
+        }
+
+
+
+        .header,
+        .footer,
+        .form-d {}
+
+        .call-p a {
+
+            color: #000;
+
+        }
+
+
+
+        .book h3 {
+
+            color: #433a8b;
+
+            font-weight: 800;
+
+        }
+
+
+
+        .form-d,
+        .form-dd {
+
+            max-width: 500px;
+
+            width: 100%;
+
+            padding: 118px 0 34px 0px;
+
+            margin: 0 auto;
+
+        }
+
+
+
+        .form-dd {
+
+            max-width: 500px;
+
+            width: 100%;
+
+            padding: 118px 0 34px 20px;
+
+        }
+
+
+
+        .form-control:focus {
+
+            border: 1px solid #433a8b;
+
+        }
+
+
+
+        .form-g {
+
+            padding: 25px;
+
+            border-radius: 15px;
+
+            background: #000 !important;
+
+        }
+
+        .details_pr h2 {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        .details_pr p {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .details_pr img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+
+
+        @media(max-width:768px) {
+
+
+
+            .ab {
+
+                margin-top: -114px;
+
+            }
+
+            .mob {
+                display: none;
+            }
+
+            body {
+                padding-top: 35px;
+            }
+
+            .form-dd {
+
+                max-width: 500px;
+
+                width: 100%;
+
+                padding: 59px 0 34px 0px;
+
+            }
+
+            .container-fliud {
+                padding: 15px;
+            }
+
+        }
+
+        .dataTables_wrapper .dataTables_length,
+        .dataTables_wrapper .dataTables_filter,
+        .dataTables_wrapper .dataTables_info,
+        .dataTables_wrapper .dataTables_processing,
+        .dataTables_wrapper .dataTables_paginate {
+            color: #fff !important;
+        }
+    </style>
+
+    <title>Creative Made Easy :: Form</title>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-690BBMSX5Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-690BBMSX5Z');
+    </script>
+
+</head>
+
+
+
+<body data-spy="scroll" data-target="#myHeader">
+
+    <a href="https://api.whatsapp.com/send/?phone=919035026822&text=Hi,+I%20Want%20More%20details%20&app_absent=0"
+        target="_blank" class="wts"><i class="fab fa-whatsapp"></i></a>
+
+    <!-- Preloader -->
+
+    <!-- <div class="preloader">
+
+        <div class="main-circle">
+
+            <div class="second-circle">
+
+                <div class="third-circle">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+
+    <div id="wrap">
+
+
+
+        <!-- Start Header -->
+
+        <header class="header" id="myHeader">
+            <nav class="navbar navbar-expand-lg navbar-dark  navbar-sticky pt-0 pb-0">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/LOGO_IAM.png" width="60px"></a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <h4
+                            style="color:#fff; font-weight:600; font-size:25px; font-family:montserrat; font-style: italic; margin:0;">
+                            <!-- Pay for Creative and Telecast on Television for free of cost --> Test Drive
+                        </h4>
+
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item mr-2">
+                                <a href="https://www.iampl.com" target="_blank"
+                                    class="btn btn-light btn-block text-uppercase btn-srt">Visit IAMPL Website</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="color:#fff; font-size:25px;">
+                                    <i class="fas fa-home"></i> </a>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+        <!-- End Header -->
+
+        <!-- start slider section -->
+        <section class="" id="TripPlanner" style="margin-top: 80px;">
+            <div class="container-fliud" style="padding: 30px; background-color: #19162d;">
+                <div class="title">
+                    <h1 style="color: #fff;">Enquiry Form Data</h1>
+                </div>
+                <table class="table table-bordered" id="adminTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone Number</th>
+                            <th scope="col">Message</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+    </div>
+    </section>
+    <section class="bg-po">
+
+
+
+        <div class="container-fluid">
+
+
+
+            <h3> Innovative Advanced Media Management Pvt Ltd </h3>
+
+
+
+            <p>No.192, 3rd Floor, Sri Sathya Arcade
+
+                Service Road of West Of Chord Road
+
+                2nd Stage, Mahalakshmipuram
+
+                Bangalore - 560 086
+
+
+
+            </p>
+
+
+
+
+
+            <p>Email: info@iampl.com, Landline: 080 2300 3001,
+
+                Website: www.iampl.com
+
+            </p>
+
+
+
+            <div class="social">
+
+                <a target="_blank" href="https://www.facebook.com/Iamdigitalbengaluru/"><i
+                        class="fab fa-facebook-square"></i></a>
+
+                <a target="_blank" href="https://twitter.com/iampvtltd"><i class="fab fa-twitter"></i></a>
+
+                <a target="_blank" href="https://www.instagram.com/iam.pvt.ltd/"><i class="fab fa-instagram"></i></a>
+
+                <a target="_blank"
+                    href="https://www.linkedin.com/company/innovative-advanced-media-management-pvt.-ltd.-/about/"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+    <footer class="footer bg-black text-center p-3 text-white">
+
+        <div class="container-fluid">
+
+            <p class="m-0" style="color:#fff;">© 2023. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+    <span class="scroll-top" data-scroll="up">
+
+        <i class="fas fa-long-arrow-alt-up"></i>
+
+    </span>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#adminTable').DataTable({
+                // DataTables options
+                "bProcessing": true,
+                "serverSide": true,
+                "ajax": {
+                    url: "/cme/admin.php",
+                    type: "post",
+                    error: function () {
+                        // console.log("Ajax error");
+                        table.ajax.reload(null, false); 
+                    }
+                }
+            });
+        });
+
+
+    </script>
+    <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/slick-slider/slick.min.js"></script>
+
+    <script src="assets/js/slick-slider/slick.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+</body>
+
+
+
+</html>
